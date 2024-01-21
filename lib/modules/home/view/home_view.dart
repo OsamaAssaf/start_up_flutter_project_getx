@@ -7,8 +7,7 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return UpgradeAlert(
-      upgrader: Components().upgrader(),
+    return UpgradeDialog(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Home'),
